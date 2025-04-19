@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Facial Expression Recognition</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin-top: 30px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        #emotion {
+            font-size: 28px;
+            color: #333;
+        }
+
+        video {
+            border: 2px solid #555;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Real-Time Facial Expression Recognition</h1>
+    <video id="video" width="640" height="480" autoplay muted></video>
+    <p><strong>Detected Emotion:</strong> <span id="emotion">Loading...</span></p>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
